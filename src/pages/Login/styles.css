@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 100vw;
+    max-height: 100vh;
+}
+
+.container {
+    padding: 0;
+    max-width: 100vw;
+    height: 100vh;
+}
+
+.container-second {
+    width: 100%;
+    height: 100vh;
+    background: #005bea;
+    color: #fff ;
+}
+
+.global-login{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+.text{
+    font-family: "Signika Negative", sans-serif;
+    font-size: 3rem;
+    padding-bottom: 15px;
+}
+
+.alert {
+    padding-bottom: 20px;
+}
+
+.alert span {
+    font-size: 1.5rem;
+    font-family: "Signika Negative", sans-serif;
+    border: 1px rgb(236, 84, 84) solid;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 75px;
+    padding-right: 75px;
+    background: rgb(236, 84, 84);
+    border-radius: 10px;
+}
+
+.form .input{
+    width: 35%;
+    height: 40px;
+    margin-bottom: 15px;
+    border-radius: 20px;
+    border: none;
+    padding-left: 15px;
+    color: gray;
+}
+
+.form .btn{
+    width: 35%;
+    height: 35px;
+    border-radius: 20px;
+    border: 1px #fff solid;
+    background: transparent;
+    color: #fff;
+    font-family: "Signika negative", sans-serif;
+    font-size: 1.2rem;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+.form .btn:hover{
+    background: #003486;
+    transition: .4s;
+}
+
+.button{
+    width: 35%;
+    height: 35px;
+    border-radius: 20px;
+    border: 1px #fff solid;
+    background: transparent;
+    color: #fff;
+    font-family: "Signika negative", sans-serif;
+    font-size: 1.2rem;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+.button:hover{
+    background: #003486;
+    transition: .4s;
+}
+
+.a{
+    text-decoration: none;
+    color: #fff;
+}

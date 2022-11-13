@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+.container-form{
+    padding: 30px;
+    height: auto;
+    background-color: #ececec;
+    /* font-family: 'Dosis', sans-serif; */
+}
+
+label{
+    font-family: 'Dosis', sans-serif;
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+input{
+    border: 0;
+    background-color: #d3e1ec;
+    height: 35px;
+    font-size: 1em;
+    margin-bottom: 15px;
+    padding: 5px;
+}
+
+input.atividade , .descricao{
+    width: 100%;
+}
+
+.btn-create{
+    width: 100%;
+    height: 40px;
+    margin-top: 3%;
+    background-color: #ff6346;
+    border: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    font-size: 1em;
+    cursor: pointer;
+}

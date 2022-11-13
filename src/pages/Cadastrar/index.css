@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.global-register{
+    width: 100vw;
+    height: 100vh;
+    background: #005bea;
+    color: #fff;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+.text-content{
+    font-family: "Signika Negative", sans-serif;
+    font-size: 3rem;
+    padding-bottom: 15px;
+}
+
+.alert-register{
+    padding-bottom: 20px;
+}
+
+.alert-register span.erro{
+    font-size: 1.5rem;
+    font-family: "Signika Negative", sans-serif;
+    border: 1px rgb(236, 84, 84) solid;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 75px;
+    padding-right: 75px;
+    background: rgb(236, 84, 84);
+    border-radius: 10px;
+}
+
+.alert-register span.success{
+    font-size: 1.5rem;
+    font-family: "Signika Negative", sans-serif;
+    border: 1px rgb(129, 238, 129) solid;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 75px;
+    padding-right: 75px;
+    background: rgb(129, 238, 129);
+    border-radius: 10px;
+}
+
+.form-register .input-register{
+    width: 35%;
+    height: 40px;
+    margin-bottom: 15px;
+    border-radius: 20px;
+    border: none;
+    padding-left: 15px;
+    color: gray;
+}
+
+.form-register .button-register{
+    width: 35%;
+    height: 35px;
+    border-radius: 20px;
+    border: 1px #fff solid;
+    background: transparent;
+    color: #fff;
+    font-family: "Signika negative", sans-serif;
+    font-size: 1.2rem;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+.form-register .button-register:hover{
+    background: #003486;
+    transition: .4s;
+}
+
+.form-register .show{
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.form-register label{
+    font-family: "Signika negative", sans-serif;
+    font-size: 1.2rem;
+}
+
+.button-login{
+    width: 35%;
+    height: 35px;
+    border-radius: 20px;
+    border: 1px #fff solid;
+    background: transparent;
+    color: #fff;
+    font-family: "Signika negative", sans-serif;
+    font-size: 1.2rem;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+.button-login a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.button-login:hover{
+    background: #003486;
+    transition: .4s;
+}
